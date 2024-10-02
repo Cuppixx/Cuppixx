@@ -5,5 +5,10 @@ The name's Cuppixx or CuppiXD. I'm a hobbyist game developer studying IT/Softwar
 In the field of software development, I've worked with languages like C#, C++, C, Java, Python, SQL, HTML, and JavaScript.
 
 
-I've developed a handful of open-source projects (Assets) under the MIT license. Some of my personal favorites are pinned below.
- 
+I've developed a handful of open-source projects (Assets, Games, Software, Templates) under the MIT license. Some of my personal favorites are also pinned below.
+
+- My Godot-related assets can be found right here on my [GitHub](https://github.com/Cuppixx?tab=repositories) or on the [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD).
+- My games and software can be found on my [GitHub](https://github.com/Cuppixx?tab=repositories) or [itch.io](https://cuppixx.itch.io).
+
+
+For a comprehensive overview of my projects, take a look at my [portfolio](https://cuppixx.github.io).
