@@ -10,5 +10,8 @@ I've developed a handful of open-source projects (Assets, Games, Software, Templ
 - My Godot-related assets can be found right here on my [GitHub](https://github.com/Cuppixx?tab=repositories) or on the [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD).
 - My games and software can be found on my [GitHub](https://github.com/Cuppixx?tab=repositories) or [itch.io](https://cuppixx.itch.io).
 
+I'm also working on a few projects that I hope to one day release on Steam or GOG.
+
+- If I ever manage to release a game or publish one through a publisher, I will add the corresponding links here.
 
 For a comprehensive overview of my projects, take a look at my [portfolio](https://cuppixx.github.io).
