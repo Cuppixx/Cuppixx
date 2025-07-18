@@ -1,6 +1,5 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Cuppixx&color=blue&style=flat" />
-  <img src="https://img.shields.io/github/followers/Cuppixx?label=Followers&style=flat" />
   <img src="https://img.shields.io/badge/Repos-0-blue?style=flat" />
   <img src="https://img.shields.io/badge/Public%20Repos-0-blue?style=flat" />
 </p>
