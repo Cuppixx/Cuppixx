@@ -1,7 +1,8 @@
 name: Metrics
 
 on:
-  schedule: [{cron: "0 0 * * 1"}]  # Every Monday at midnight
+  schedule: 
+    - cron: "0 0 * * 1"  # Every Monday at midnight
   workflow_dispatch:
 
 jobs:
@@ -15,11 +16,9 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: main
           filename: metrics.plugin.languages.svg
-
           base: ""
           plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css
+
           plugin_languages_limit: 8
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: bytes-size, percentage
