@@ -20,7 +20,7 @@ jobs:
         run: |
           BIRTH_YEAR=2001
           CURRENT_YEAR=$(date +%Y)
-          AGE=$((CURRENT_YEAR - BIRTH_YEAR))
+          AGE=$((CURRENT_YEAR - BIRTH_YEAR - 1))
           
           echo "CURRENT_AGE=$AGE" >> $GITHUB_ENV
           
