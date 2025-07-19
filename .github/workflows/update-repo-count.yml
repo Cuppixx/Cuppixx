@@ -1,13 +1,10 @@
 name: Update Repo Count Badges
-
 on:
   schedule:
     - cron: "0 0 1 * *" # At 00:00 on the 1st of every month
   workflow_dispatch:
-  
 permissions:
   contents: write
-  
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -22,26 +19,26 @@ jobs:
         run: |
           GH_USER="Cuppixx"
           
+          # Get counts using gh CLI
           public_count=$(gh repo list $GH_USER --limit 1000 --visibility public --json name --jq 'length')
-          echo "PUBLIC_REPO_COUNT=$public_count" >> $GITHUB_ENV
-          
           private_count=$(gh repo list $GH_USER --limit 1000 --visibility private --json name --jq 'length')
           total_count=$((public_count + private_count))
+          
+          echo "PUBLIC_REPO_COUNT=$public_count" >> $GITHUB_ENV
           echo "REPO_COUNT=$total_count" >> $GITHUB_ENV
           
-          gist_count=$(gh api user/gists --paginate --jq 'length')
-          echo "GIST_COUNT=$gist_count" >> $GITHUB_ENV
-          
           # Debug output
-          echo "Repos: $total_count" 
-          echo "Public Repos: $public_count"
-          echo "Gists: $gist_count"
+          echo "Public repos: $public_count"
+          echo "Private repos: $private_count" 
+          echo "Total repos: $total_count"
           
       - name: Update badge numbers in README
         run: |
+          # Update total repos badge (matches: Repos-[number]-blue)
           sed -i "s/Repos-[0-9]\+/Repos-${{ env.REPO_COUNT }}/g" README.md
+          
+          # Update public repos badge (matches: Public%20Repos-[number]-blue)
           sed -i "s/Public%20Repos-[0-9]\+/Public%20Repos-${{ env.PUBLIC_REPO_COUNT }}/g" README.md
-          sed -i "s/Gists-[0-9]\+/Gists-${{ env.GIST_COUNT }}/g" README.md
           
       - name: Commit and push changes with PAT
         env:
