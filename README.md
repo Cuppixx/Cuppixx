@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/GitHub%20Since-2022-blue?style=flat" />
 </p>
 
-# About Me:
+## About:
 The name's David — or **Cuppixx**.  
 I'm a 23-year-old **hobbyist game developer** living in Germany.  
 I'm currently **studying CS**.
@@ -39,7 +39,7 @@ In terms of game development, I've mainly worked with the **Godot-Engine** (GDSc
   <img src="https://img.shields.io/badge/DevOps-Docker-blue?style=flat&logo=docker" />
 </p>
 
-## My Work:
+## Projects:
 
 I've **developed** a handful of **open-source projects** (Assets, Games, Software, Templates) under the MIT license.  
 Some of my personal favorites are also pinned below.
