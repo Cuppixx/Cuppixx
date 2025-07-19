@@ -28,9 +28,15 @@ In terms of game development, I've mainly worked with the **Godot-Engine** (GDSc
 </p>
 <br><br>
 
-<p align="center">
-      <img src="https://raw.githubusercontent.com/Cuppixx/Cuppixx/main/metrics.plugin.languages.svg"/>
-</p>
+<div align="center">
+  <table>
+    <tbody>
+      <tr>
+        <td><img src="https://raw.githubusercontent.com/Cuppixx/Cuppixx/main/metrics.plugin.languages.svg"/></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <br><br>
 
