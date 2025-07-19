@@ -30,10 +30,18 @@ jobs:
           echo "PUBLIC_REPO_COUNT=$public_count" >> $GITHUB_ENV
           echo "REPO_COUNT=$total_count" >> $GITHUB_ENV
           
-      - name: Replace placeholders in README
+          # Debug output
+          echo "Public repos: $public_count"
+          echo "Private repos: $private_count" 
+          echo "Total repos: $total_count"
+          
+      - name: Update badge numbers in README
         run: |
-          sed -i "s/<REPO_COUNT>/${{ env.REPO_COUNT }}/g" README.md
-          sed -i "s/<PUBLIC_REPO_COUNT>/${{ env.PUBLIC_REPO_COUNT }}/g" README.md
+          # Update total repos badge (matches: Repos-[number]-blue)
+          sed -i "s/Repos-[0-9]\+/Repos-${{ env.REPO_COUNT }}/g" README.md
+          
+          # Update public repos badge (matches: Public%20Repos-[number]-blue)
+          sed -i "s/Public%20Repos-[0-9]\+/Public%20Repos-${{ env.PUBLIC_REPO_COUNT }}/g" README.md
           
       - name: Commit and push changes with PAT
         env:
@@ -42,5 +50,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: update repo badges in README" || echo "No changes to commit"
+          git commit -m "chore: update repo badges in README [skip ci]" || echo "No changes to commit"
           git push https://Cuppixx:${GIT_TOKEN}@github.com/Cuppixx/Cuppixx.git HEAD:main
