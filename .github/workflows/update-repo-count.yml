@@ -32,29 +32,16 @@ jobs:
           gist_count=$(gh api user/gists --paginate --jq 'length')
           echo "GIST_COUNT=$gist_count" >> $GITHUB_ENV
           
-          packages_query='
-          query($login: String!) {
-            user(login: $login) {
-              packages(first: 1000) {
-                totalCount
-              }
-            }
-          }'
-          packages_count=$(gh api graphql -f query="$packages_query" -f login="$GH_USER" --jq '.data.user.packages.totalCount')
-          echo "PACKAGES_COUNT=$packages_count" >> $GITHUB_ENV
-          
           # Debug output
           echo "Repos: $total_count" 
           echo "Public Repos: $public_count"
           echo "Gists: $gist_count"
-          echo "Packages: $packages_count"
           
       - name: Update badge numbers in README
         run: |
           sed -i "s/Repos-[0-9]\+/Repos-${{ env.REPO_COUNT }}/g" README.md
           sed -i "s/Public%20Repos-[0-9]\+/Public%20Repos-${{ env.PUBLIC_REPO_COUNT }}/g" README.md
           sed -i "s/Gists-[0-9]\+/Gists-${{ env.GIST_COUNT }}/g" README.md
-          sed -i "s/Packages-[0-9]\+/Packages-${{ env.PACKAGES_COUNT }}/g" README.md
           
       - name: Commit and push changes with PAT
         env:
