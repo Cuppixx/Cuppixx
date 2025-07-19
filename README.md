@@ -6,7 +6,7 @@
 
 # About Me:
 The name's David — or **Cuppixx**.  
-I'm a 24-year-old **hobbyist game developer** living in Germany.  
+I'm a 23-year-old **hobbyist game developer** living in Germany.  
 I'm currently **studying CS**.
 
 
