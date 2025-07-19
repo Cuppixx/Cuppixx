@@ -25,8 +25,9 @@ In terms of game development, I've mainly worked with the **Godot-Engine** (GDSc
 <br><br>
 
 <p align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cuppixx&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Langs"/>
+      <img src="https://raw.githubusercontent.com/Cuppixx/Cuppixx/main/metrics.plugin.languages.svg"/>
 </p>
+
 <br><br>
 
 I've **developed** a handful of **open-source projects** (Assets, Games, Software, Templates) under the MIT license.  
