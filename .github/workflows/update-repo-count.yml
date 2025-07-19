@@ -23,15 +23,12 @@ jobs:
         run: |
           GH_USER="Cuppixx"
           GH_API="https://api.github.com/users/$GH_USER"
-      
+
           response=$(curl -s $GH_API)
           repos=$(echo "$response" | jq '.public_repos')
-      
-          # Use METRICS_TOKEN to authenticate with gh for private repos
-          echo "$GH_TOKEN" | gh auth login --with-token
-      
+
           total_repos=$(gh repo list $GH_USER --limit 1000 --json name --jq 'length')
-      
+
           echo "PUBLIC_REPO_COUNT=$repos" >> $GITHUB_ENV
           echo "REPO_COUNT=$total_repos" >> $GITHUB_ENV
 
@@ -46,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
+
           git add README.md
           git commit -m "chore: update repo badges in README" || echo "No changes to commit"
           git push https://Cuppixx:${GIT_TOKEN}@github.com/Cuppixx/Cuppixx.git HEAD:main
