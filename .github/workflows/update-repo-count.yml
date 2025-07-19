@@ -25,12 +25,14 @@ jobs:
           GH_API="https://api.github.com/users/$GH_USER"
 
           response=$(curl -s $GH_API)
-          repos=$(echo "$response" | jq '.public_repos')
+          public_repos=$(echo "$response" | jq '.public_repos')
 
-          total_repos=$(gh repo list $GH_USER --limit 1000 --visibility all --json name --jq 'length')
+          public_count=$(gh repo list $GH_USER --limit 1000 --visibility public --json name --jq 'length')
+          private_count=$(gh repo list $GH_USER --limit 1000 --visibility private --json name --jq 'length')
+          total_count=$((public_count + private_count))
 
-          echo "PUBLIC_REPO_COUNT=$repos" >> $GITHUB_ENV
-          echo "REPO_COUNT=$total_repos" >> $GITHUB_ENV
+          echo "PUBLIC_REPO_COUNT=$public_repos" >> $GITHUB_ENV
+          echo "REPO_COUNT=$total_count" >> $GITHUB_ENV
 
       - name: Replace placeholders in README
         run: |
