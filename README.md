@@ -1,13 +1,13 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Cuppixx&color=blue&style=flat" />
-  <img src="https://img.shields.io/badge/Repos-0-blue?style=flat" />
-  <img src="https://img.shields.io/badge/Public%20Repos-0-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Repos-<REPO_COUNT>-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Public%20Repos-<PUBLIC_REPO_COUNT>-blue?style=flat" />
 </p>
 
 # About Me:
 The name's David — or **Cuppixx**.  
-I'm a 23-year-old **hobbyist game developer** living in Germany.  
-I'm currently studying IT Software Systems. 
+I'm a <AGE>-year-old **hobbyist game developer** living in Germany.  
+I'm currently **studying CS**.
 
 
 ## Experience:
