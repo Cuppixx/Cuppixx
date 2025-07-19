@@ -14,6 +14,17 @@ I'm currently **studying CS**.
 
 
 ## Experience:
+<div align="center">
+  <table>
+    <tbody>
+      <tr>
+        <td><img src="https://raw.githubusercontent.com/Cuppixx/Cuppixx/main/metrics.plugin.languages.svg"/></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br><br>
+
 In terms of game development, I've mainly worked with the **Godot-Engine** (GDScript) so far. I've also explored Unreal (C++ / Blueprints), Unity (C#), and Bevy (Rust).
 <p align="center">
   <img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px;" />
@@ -26,19 +37,6 @@ In terms of game development, I've mainly worked with the **Godot-Engine** (GDSc
   <img src="https://img.shields.io/badge/Backend-Django-green?style=flat&logo=django" style="margin-right:6px;" />
   <img src="https://img.shields.io/badge/DevOps-Docker-blue?style=flat&logo=docker" />
 </p>
-<br><br>
-
-<div align="center">
-  <table>
-    <tbody>
-      <tr>
-        <td><img src="https://raw.githubusercontent.com/Cuppixx/Cuppixx/main/metrics.plugin.languages.svg"/></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<br><br>
 
 ## My Work:
 
