@@ -2,6 +2,9 @@
   <img src="https://komarev.com/ghpvc/?username=Cuppixx&color=blue&style=flat" />
   <img src="https://img.shields.io/badge/Repos-32-blue?style=flat" />
   <img src="https://img.shields.io/badge/Public%20Repos-16-blue?style=flat" />
+  <img src="https://img.shields.io/badge/LOC-[NUMBER]-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat" />
+  <img src="https://img.shields.io/badge/GitHub%20Since-2022-blue?style=flat" />
 </p>
 
 # About Me:
@@ -14,6 +17,7 @@ I'm currently **studying CS**.
 In terms of game development, I've mainly worked with the **Godot-Engine** (GDScript) so far. I've also explored Unreal (C++ / Blueprints), Unity (C#), and Bevy (Rust).
 <p align="center">
   <img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px;" />
+  <img src="https://img.shields.io/badge/Language-C++-00599C?style=flat&logo=cplusplus&logoColor=white" style="margin-right:6px;" />
 </p>
 
   In the field of software development, I'm currently working as a **junior full-stack developer** using React (TypeScript), HTML, and CSS — Django (Python), REST, and PostgreSQL — in a containerized environment (Docker and Kubernetes).
