@@ -34,6 +34,8 @@ In terms of game development, I've mainly worked with the **Godot-Engine** (GDSc
 
 <br><br>
 
+## My Work:
+
 I've **developed** a handful of **open-source projects** (Assets, Games, Software, Templates) under the MIT license.  
 Some of my personal favorites are also pinned below.
 
