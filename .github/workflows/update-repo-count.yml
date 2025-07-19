@@ -12,9 +12,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        
       - name: Fetch repo stats
         id: repo_data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           GH_USER="Cuppixx"
           GH_API="https://api.github.com/users/$GH_USER"
