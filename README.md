@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Cuppixx&color=blue&style=flat" />
-  <img src="https://img.shields.io/badge/Repos-<REPO_COUNT>-blue?style=flat" />
-  <img src="https://img.shields.io/badge/Public%20Repos-<PUBLIC_REPO_COUNT>-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Repos-16-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Public%20Repos-16-blue?style=flat" />
 </p>
 
 # About Me:
