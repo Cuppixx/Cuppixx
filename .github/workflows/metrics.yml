@@ -17,7 +17,7 @@ jobs:
           committer_branch: main
           filename: metrics.plugin.languages.svg
           base: ""
-          template: classic
+          template: markdown
           
           plugin_languages: yes
           plugin_languages_limit: 8
