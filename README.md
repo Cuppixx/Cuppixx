@@ -2,7 +2,7 @@
   <img src="https://komarev.com/ghpvc/?username=Cuppixx&color=blue&style=flat" />
   <img src="https://img.shields.io/badge/Repos-32-blue?style=flat" />
   <img src="https://img.shields.io/badge/Public%20Repos-16-blue?style=flat" />
-  <img src="https://img.shields.io/badge/Gists-0-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Gists-2-blue?style=flat" />
   <img src="https://img.shields.io/badge/Packages-1-478CBF?style=flat" />
   <img src="https://img.shields.io/badge/LOC-[NUMBER]-blue?style=flat" />
   <img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat" />
