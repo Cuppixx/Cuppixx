@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Cuppixx&color=blue&style=flat" />
-  <img src="https://img.shields.io/badge/Repos-32-blue?style=flat" />
-  <img src="https://img.shields.io/badge/Public%20Repos-16-blue?style=flat" />
-  <img src="https://img.shields.io/badge/Gists-2-blue?style=flat" />
-  <img src="https://img.shields.io/badge/Packages-0-478CBF?style=flat" />
-  <img src="https://img.shields.io/badge/LOC-[NUMBER]-blue?style=flat" />
-  <img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat" />
-  <img src="https://img.shields.io/badge/GitHub%20Since-2022-blue?style=flat" />
+  <a href="https://github.com/Cuppixx"><img src="https://komarev.com/ghpvc/?username=Cuppixx&color=blue&style=flat" /></a>
+  <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/Repos-32-blue?style=flat" /></a>
+  <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-16-blue?style=flat" /></a>
+  <a href="https://gist.github.com/Cuppixx"><img src="https://img.shields.io/badge/Gists-2-blue?style=flat" /></a>
+  <a href="https://github.com/Cuppixx?tab=packages"><img src="https://img.shields.io/badge/Packages-0-478CBF?style=flat" /></a>
+  <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/LOC-[NUMBER]-blue?style=flat" /></a>
+  <a href="https://godotengine.org"><img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat" /></a>
+  <a href="https://github.com/Cuppixx"><img src="https://img.shields.io/badge/GitHub%20Since-2022-blue?style=flat" /></a>
 </p>
 
 ## About:
@@ -29,15 +29,15 @@ I'm currently **studying CS**.
 
 In terms of game development, I've mainly worked with the **Godot-Engine** (GDScript) so far. I've also explored Unreal (C++ / Blueprints), Unity (C#), and Bevy (Rust).
 <p align="center">
-  <img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px;" />
-  <img src="https://img.shields.io/badge/Language-C++-00599C?style=flat&logo=cplusplus&logoColor=white" style="margin-right:6px;" />
+  <a href="https://godotengine.org"><img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px;" /></a>
+  <a href="https://isocpp.org/std/standing-documents"><img src="https://img.shields.io/badge/Language-C++-00599C?style=flat&logo=cplusplus&logoColor=white" style="margin-right:6px;" /></a>
 </p>
 
   In the field of software development, I'm currently working as a **junior full-stack developer** using React (TypeScript), HTML, and CSS — Django (Python), REST, and PostgreSQL — in a containerized environment (Docker and Kubernetes).
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react" style="margin-right:6px;" />
-  <img src="https://img.shields.io/badge/Backend-Django-green?style=flat&logo=django" style="margin-right:6px;" />
-  <img src="https://img.shields.io/badge/DevOps-Docker-blue?style=flat&logo=docker" />
+  <a href="https://reactnative.dev"><img src="https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react" style="margin-right:6px;" /></a>
+  <a href="https://www.djangoproject.com"><img src="https://img.shields.io/badge/Backend-Django-green?style=flat&logo=django" style="margin-right:6px;" /></a>
+  <a href="https://www.docker.com"><img src="https://img.shields.io/badge/DevOps-Docker-blue?style=flat&logo=docker" /></a>
 </p>
 
 ## Projects:
