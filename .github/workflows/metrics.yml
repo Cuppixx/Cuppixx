@@ -25,16 +25,3 @@ jobs:
           plugin_languages_threshold: 2%
           plugin_languages_other: yes
           plugin_languages_colors: classic
-
-      - name: Generate licenses metrics
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.METRICS_TOKEN }}
-          committer_branch: main
-          filename: metrics.plugin.licenses.svg
-          base: ""
-          template: classic
-          plugin_licenses: yes
-          plugin_licenses_legal: no
-          plugin_licenses_ratio: yes
