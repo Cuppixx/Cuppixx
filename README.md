@@ -20,7 +20,7 @@ I'm currently **studying CS**.
   <table>
     <tbody>
       <tr>
-        <td><img src="https://raw.githubusercontent.com/Cuppixx/Cuppixx/main/metrics.plugin.languages.svg"/></td>
+        <td><img src="https://raw.githubusercontent.com/Cuppixx/Cuppixx/main/metrics.plugin.languages-and-licenses.svg"/></td>
       </tr>
     </tbody>
   </table>
