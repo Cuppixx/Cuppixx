@@ -33,7 +33,8 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           committer_branch: main
           filename: metrics.plugin.licenses.svg
-          base: repositories
+          base: ""
           template: classic
           plugin_licenses: yes
+          plugin_licenses_legal: no
           plugin_licenses_ratio: yes
