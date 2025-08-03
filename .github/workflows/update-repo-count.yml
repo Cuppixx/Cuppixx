@@ -23,22 +23,25 @@ jobs:
           public_count=$(gh repo list $GH_USER --limit 1000 --visibility public --json name --jq 'length')
           private_count=$(gh repo list $GH_USER --limit 1000 --visibility private --json name --jq 'length')
           total_count=$((public_count + private_count))
+
+          # Get gists count using REST API
+          gist_count=$(curl -s -H "Authorization: token $GH_TOKEN" https://api.github.com/users/$GH_USER/gists | jq 'length')
           
           echo "PUBLIC_REPO_COUNT=$public_count" >> $GITHUB_ENV
           echo "REPO_COUNT=$total_count" >> $GITHUB_ENV
+          echo "GIST_COUNT=$gist_count" >> $GITHUB_ENV
           
           # Debug output
           echo "Public repos: $public_count"
           echo "Private repos: $private_count" 
           echo "Total repos: $total_count"
+          echo "Gists: $gist_count"
           
       - name: Update badge numbers in README
         run: |
-          # Update total repos badge (matches: Repos-[number]-blue)
           sed -i "s/Repos-[0-9]\+/Repos-${{ env.REPO_COUNT }}/g" README.md
-          
-          # Update public repos badge (matches: Public%20Repos-[number]-blue)
           sed -i "s/Public%20Repos-[0-9]\+/Public%20Repos-${{ env.PUBLIC_REPO_COUNT }}/g" README.md
+          sed -i "s/Gists-[0-9]\+/Gists-${{ env.GIST_COUNT }}/g" README.md
           
       - name: Commit and push changes with PAT
         env:
