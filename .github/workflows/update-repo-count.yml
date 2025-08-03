@@ -26,22 +26,30 @@ jobs:
 
           # Get gists count using REST API
           gist_count=$(curl -s -H "Authorization: token $GH_TOKEN" https://api.github.com/users/$GH_USER/gists | jq 'length')
+
+           # Get package count via GraphQL
+          graphql_query='{ "query": "query { user(login: \"'"$GH_USER"'\") { packages(first: 100) { totalCount } } }" }'
+          package_count=$(curl -s -H "Authorization: bearer $GH_TOKEN" -H "Content-Type: application/json" \
+            -d "$graphql_query" https://api.github.com/graphql | jq '.data.user.packages.totalCount')
           
           echo "PUBLIC_REPO_COUNT=$public_count" >> $GITHUB_ENV
           echo "REPO_COUNT=$total_count" >> $GITHUB_ENV
           echo "GIST_COUNT=$gist_count" >> $GITHUB_ENV
+          echo "PACKAGE_COUNT=$package_count" >> $GITHUB_ENV
           
           # Debug output
           echo "Public repos: $public_count"
           echo "Private repos: $private_count" 
           echo "Total repos: $total_count"
           echo "Gists: $gist_count"
+          echo "Packages: $package_count"
           
       - name: Update badge numbers in README
         run: |
           sed -i "s/Repos-[0-9]\+/Repos-${{ env.REPO_COUNT }}/g" README.md
           sed -i "s/Public%20Repos-[0-9]\+/Public%20Repos-${{ env.PUBLIC_REPO_COUNT }}/g" README.md
           sed -i "s/Gists-[0-9]\+/Gists-${{ env.GIST_COUNT }}/g" README.md
+          sed -i "s/Packages-[0-9]\+/Packages-${{ env.PACKAGE_COUNT }}/g" README.md
           
       - name: Commit and push changes with PAT
         env:
