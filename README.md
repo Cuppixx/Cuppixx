@@ -4,7 +4,7 @@
   <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-16-blue?style=flat" /></a>
   <a href="https://gist.github.com/Cuppixx"><img src="https://img.shields.io/badge/Gists-2-blue?style=flat" /></a>
   <a href="https://github.com/Cuppixx?tab=packages"><img src="https://img.shields.io/badge/Packages-0-478CBF?style=flat" /></a>
-  <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/LOC-[NUMBER]-blue?style=flat" /></a>
+  <a href="https://www.youtube.com/watch?v=7IOG92WEkOc"><img src="https://img.shields.io/badge/GOAT-Outward-blue?style=flat" /></a>
   <a href="https://godotengine.org"><img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat" /></a>
   <a href="https://github.com/Cuppixx"><img src="https://img.shields.io/badge/GitHub%20Since-2022-blue?style=flat" /></a>
 </p>
