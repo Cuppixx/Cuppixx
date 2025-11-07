@@ -1,10 +1,13 @@
 name: Update Repo Count Badges
+
 on:
   schedule:
     - cron: "0 0 1 * *" # At 00:00 on the 1st of every month
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
