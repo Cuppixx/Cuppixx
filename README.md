@@ -14,7 +14,6 @@ The name's David — or **Cuppixx**.
 I'm a 23-year-old **hobbyist game developer** living in Germany.  
 I'm currently **studying CS**.
 
-
 ## Experience:
 <div align="center">
   <table>
@@ -27,23 +26,32 @@ I'm currently **studying CS**.
 </div>
 <br><br>
 
-In terms of game development, I've mainly worked with the **Godot-Engine** (GDScript) so far. I've also explored Unreal (C++ / Blueprints), Unity (C#), and Bevy (Rust).
-<p align="center">
-  <a href="https://godotengine.org"><img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px;" /></a>
-  <a href="https://isocpp.org/std/standing-documents"><img src="https://img.shields.io/badge/Language-C++-00599C?style=flat&logo=cplusplus&logoColor=white" style="margin-right:6px;" /></a>
-</p>
-
-  In the field of software development, I'm currently working as a **junior full-stack developer** using React (TypeScript), HTML, and CSS — Django (Python), REST, and PostgreSQL — in a containerized environment (Docker and Kubernetes).
-<p align="center">
-  <a href="https://reactnative.dev"><img src="https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react" style="margin-right:6px;" /></a>
-  <a href="https://www.djangoproject.com"><img src="https://img.shields.io/badge/Backend-Django-green?style=flat&logo=django" style="margin-right:6px;" /></a>
-  <a href="https://www.docker.com"><img src="https://img.shields.io/badge/DevOps-Docker-blue?style=flat&logo=docker" /></a>
-</p>
+<div align="justify">
+  <p>In terms of game development, I've mostly worked with the <strong>Godot-Engine</strong> (GDScript). I've also explored Unreal (C++ / Blueprints), Unity (C#), and Bevy (Rust).</p>
+  
+  <p align="center">
+    <a href="https://godotengine.org"><img src="https://img.shields.io/badge/Engine-Godot-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px;" /></a>
+    <a href="https://isocpp.org/std/standing-documents"><img src="https://img.shields.io/badge/Language-C++-00599C?style=flat&logo=cplusplus&logoColor=white" style="margin-right:6px;" /></a>
+  </p>
+  
+  <p>In the field of software development, I'm currently working as a <strong>junior full-stack developer</strong> using React (TS), HTML, and CSS — Django (Python), REST, and PostgreSQL — in a containerized environment (Docker and Kubernetes).</p>
+  
+  <p align="center">
+    <a href="https://reactnative.dev"><img src="https://img.shields.io/badge/Frontend-React-blue?style=flat&logo=react" style="margin-right:6px;" /></a>
+    <a href="https://www.djangoproject.com"><img src="https://img.shields.io/badge/Backend-Django-green?style=flat&logo=django" style="margin-right:6px;" /></a>
+    <a href="https://www.docker.com"><img src="https://img.shields.io/badge/DevOps-Docker-blue?style=flat&logo=docker" /></a>
+  </p>
+</div>
 
 ## Projects:
 
-I've **developed** a handful of **open-source projects** (Assets, Games, Software, Templates) under the MIT license.  
-Some of my personal favorites are also pinned below.
+<div align="justify">
+  <p>
+    I've <strong>developed</strong> a handful of <strong>open-source projects</strong> (Assets, Games, Software, Templates) under the MIT license.<br>
+    Some of my personal favorites are also pinned below.
+  </p>
+  
+</div>
 
 - My Godot-related assets can be found right here on my [GitHub](https://github.com/Cuppixx?tab=repositories) or on the [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD).
 - My games and software can be found on my [GitHub](https://github.com/Cuppixx?tab=repositories) or [itch.io](https://cuppixx.itch.io).
