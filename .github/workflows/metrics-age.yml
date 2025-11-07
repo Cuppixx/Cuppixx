@@ -1,4 +1,4 @@
-name: Update Age in README
+name: Metrics Age
 
 on:
   schedule:
@@ -32,7 +32,6 @@ jobs:
       - name: Update age in README
         run: |
           sed -i "s/<AGE>/${{ env.CURRENT_AGE }}/g" README.md
-          
           sed -i "s/[0-9]\+-year-old/${{ env.CURRENT_AGE }}-year-old/g" README.md
           
       - name: Commit and push changes
