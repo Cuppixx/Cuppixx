@@ -1,4 +1,4 @@
-name: Update Repo Count Badges
+name: Metrics Badge Counts
 
 on:
   schedule:
@@ -32,8 +32,7 @@ jobs:
 
            # Get package count via GraphQL
           graphql_query='{ "query": "query { user(login: \"'"$GH_USER"'\") { packages(first: 100) { totalCount } } }" }'
-          package_count=$(curl -s -H "Authorization: bearer $GH_TOKEN" -H "Content-Type: application/json" \
-            -d "$graphql_query" https://api.github.com/graphql | jq '.data.user.packages.totalCount')
+          package_count=$(curl -s -H "Authorization: bearer $GH_TOKEN" -H "Content-Type: application/json" -d "$graphql_query" https://api.github.com/graphql | jq '.data.user.packages.totalCount')
           
           echo "PUBLIC_REPO_COUNT=$public_count" >> $GITHUB_ENV
           echo "REPO_COUNT=$total_count" >> $GITHUB_ENV
@@ -41,11 +40,7 @@ jobs:
           echo "PACKAGE_COUNT=$package_count" >> $GITHUB_ENV
           
           # Debug output
-          echo "Public repos: $public_count"
-          echo "Private repos: $private_count" 
-          echo "Total repos: $total_count"
-          echo "Gists: $gist_count"
-          echo "Packages: $package_count"
+          echo "Public: $public_count | Private: $private_count | Total: $total_count | Gists: $gist_count | Packages: $package_count"
           
       - name: Update badge numbers in README
         run: |
@@ -61,5 +56,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: update repo badges in README [skip ci]" || echo "No changes to commit"
+          git commit -m "chore: run metric-badge-counts [skip ci]" || echo "No changes to commit"
           git push https://Cuppixx:${GIT_TOKEN}@github.com/Cuppixx/Cuppixx.git HEAD:main
