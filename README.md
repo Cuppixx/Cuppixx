@@ -30,18 +30,18 @@ I'm currently **studying CS**.
   <p>In terms of game development, I've mostly worked with the <strong>Godot-Engine</strong> (GDScript, C++, C#). But I've also explored Unreal-Engine (C++ / Blueprints), Unity (C#), and Bevy (Rust).</p>
   
   <p align="center">
-    <a href="https://godotengine.org"><img src="https://img.shields.io/badge/Godot-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px; height:28px;" /></a>
-    <a href="https://godotengine.org"><img src="https://img.shields.io/badge/GDScript-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px; height:28px;" /></a>
-    <a href="https://isocpp.org/std/standing-documents"><img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=chainlink&logoColor=white" style="margin-right:6px; height:28px;" /></a>
+    <a href="https://godotengine.org"><img src="https://img.shields.io/badge/Godot-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px; height:26px;" /></a>
+    <a href="https://godotengine.org"><img src="https://img.shields.io/badge/GDScript-478CBF?style=flat&logo=godot-engine&logoColor=white" style="margin-right:6px; height:26px;" /></a>
+    <a href="https://isocpp.org/std/standing-documents"><img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=chainlink&logoColor=white" style="margin-right:6px; height:26px;" /></a>
   </p>
   <br>
   
   <p>In the field of software development, I'm currently working as a <strong>junior full-stack developer</strong> using React (TS), HTML, and CSS — Django (Python), REST, and PostgreSQL — in a containerized environment (Docker and Kubernetes).</p>
   
   <p align="center">
-    <a href="https://reactnative.dev"><img src="https://img.shields.io/badge/React-478CBF?style=flat&logo=react&logoColor=white" style="margin-right:6px; height:28px;" /></a>
-    <a href="https://www.djangoproject.com"><img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" style="margin-right:6px; height:28px;" /></a>
-    <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" style="margin-right:6px; height:28px;" /></a>
+    <a href="https://reactnative.dev"><img src="https://img.shields.io/badge/React-478CBF?style=flat&logo=react&logoColor=white" style="margin-right:6px; height:26px;" /></a>
+    <a href="https://www.djangoproject.com"><img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" style="margin-right:6px; height:26px;" /></a>
+    <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" style="margin-right:6px; height:26px;" /></a>
   </p>
   <br>
 </div>
