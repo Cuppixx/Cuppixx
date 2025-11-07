@@ -11,9 +11,11 @@
 
 ## About:
 
-The name's David — or **Cuppixx**.
-I'm a 23-year-old **hobbyist game developer** living in Germany.
-I'm currently **studying CS**.
+<div>
+  The name's David — or <strong>Cuppixx</strong>.<br>
+  I'm a 23-year-old <strong>hobbyist game developer</strong> living in Germany.<br>
+  I'm currently <strong>studying CS</strong>.<br>
+</div>
 
 ## Experience:
 
