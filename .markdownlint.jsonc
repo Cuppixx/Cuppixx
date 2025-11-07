@@ -1,0 +1,7 @@
+{
+  "MD013": false, // Line length
+  "MD026": false, // Trailing punctuation in header
+  "MD033": false, // Inline HTML
+  "MD041": false, // First line in a file should be a top-level heading
+  "MD045": false  // Images should have alt text
+}
