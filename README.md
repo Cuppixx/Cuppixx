@@ -13,7 +13,7 @@
 
 <div>
   The name's David — or <strong>Cuppixx</strong>.<br>
-  I'm a 23-year-old <strong>hobbyist game developer</strong> living in Germany.<br>
+  I'm a 24-year-old <strong>hobbyist game developer</strong> living in Germany.<br>
   I'm currently <strong>studying CS</strong>.<br>
 </div>
 
