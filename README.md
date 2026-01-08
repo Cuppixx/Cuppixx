@@ -70,11 +70,11 @@
 
 I'm also working on a few projects that I hope to one day release on Steam or GOG.
 
-<table>
+<table align="center">
   <tbody>
     <tr>
-      <td><img src="https://github-readme-stats.vercel.app/api?username=Cuppixx&show_icons=true&count_private=true&hide_title=true&theme=transparent&hide_border=true"/></td>
-      <td><img src="https://nirzak-streak-stats.vercel.app/?user=Cuppixx&theme=transparent&hide_border=true" alt="Solarized Ocean"/></td>
+      <!-- <td><img src="https://github-readme-stats.vercel.app/api?username=Cuppixx&show_icons=true&count_private=true&hide_title=true&theme=transparent&hide_border=true"/></td> // This Deployment is paused by the owner! -->
+      <td><img src="https://nirzak-streak-stats.vercel.app/?user=Cuppixx&theme=transparent&hide_border=true" alt="Solarized Ocean" width="550"/></td>
     </tr>
   </tbody>
 </table>
