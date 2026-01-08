@@ -32,7 +32,7 @@
 
 <div align="justify">
   <p>
-    In terms of game development, I've mostly worked with the <strong>Godot-Engine</strong> (GDScript, C++, C#).
+    In terms of <strong>game development</strong>, I've mostly worked with the <strong>Godot-Engine</strong> (GDScript, C++, C#).
     But I've also explored Unreal-Engine (C++ / Blueprints), Unity (C#), and Bevy (Rust).
   </p>
 
