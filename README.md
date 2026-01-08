@@ -14,7 +14,7 @@
 <div>
   The name's David — or <strong>Cuppixx</strong>.<br>
   <!-- Auto updated at the start of each year. -->
-  I'm 24-years-old.<br>
+  I'm 24 years old.<br>
   A <strong>hobbyist game developer</strong>, <strong>working</strong> as a <strong>junior full-stack developer</strong>.<br>
   Based in Germany.<br>
 </div>
