@@ -14,7 +14,7 @@
 <div>
   The name's David — or <strong>Cuppixx</strong>.<br>
   I'm a 24-year-old <strong>hobbyist game developer</strong> living in Germany.<br>
-  I'm currently working as a <strong>junior full-stack developer</strong>.<br>
+  I'm currently <strong>working</strong> as a <strong>junior full-stack developer</strong>.<br>
 </div>
 
 ## Experience:
