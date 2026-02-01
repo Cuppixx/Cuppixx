@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/Cuppixx"><img src="https://komarev.com/ghpvc/?username=Cuppixx&color=blue&style=flat" style="margin-right:6px; height:22px;" /></a>
-  <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/Repos-34-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
-  <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-23-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
+  <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/Repos-35-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
+  <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-24-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
   <a href="https://gist.github.com/Cuppixx"><img src="https://img.shields.io/badge/Gists-5-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
   <a href="https://github.com/Cuppixx?tab=packages"><img src="https://img.shields.io/badge/Packages-0-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
   <a href="https://store.steampowered.com/app/794260/Outward_Definitive_Edition/"><img src="https://img.shields.io/badge/GOAT-Outward-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
