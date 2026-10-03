@@ -67,7 +67,7 @@
   </p>
 </div>
 
-- My Godot-related assets can be found right here on my [GitHub](https://github.com/Cuppixx?tab=repositories) or on the [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD).
+- My Godot-related assets can be found right here on my [GitHub](https://github.com/Cuppixx?tab=repositories) or on the [Godot Asset Lib](https://godotengine.org/asset-library/asset?user=CuppiXD) / [Godot Asset Store](https://store.godotengine.org/publisher/cuppixd/).
 - My games and software can be found on my [GitHub](https://github.com/Cuppixx?tab=repositories) or [itch.io](https://cuppixx.itch.io).
 
 I'm also working on a few projects that I hope to one day release on Steam or GOG.
