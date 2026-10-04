@@ -1,5 +1,8 @@
 <p align="center">
+  <!--
+  # HINT: Service partially unresponsive!
   <a href="https://github.com/Cuppixx"><img src="https://komarev.com/ghpvc/?username=Cuppixx&color=blue&style=flat" style="margin-right:6px; height:22px;" /></a>
+  -->
   <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/Repos-37-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
   <a href="https://github.com/Cuppixx?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-25-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
   <a href="https://gist.github.com/Cuppixx"><img src="https://img.shields.io/badge/Gists-6-blue?style=flat" style="margin-right:6px; height:22px;" /></a>
